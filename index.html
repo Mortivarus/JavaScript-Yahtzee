@@ -4,10 +4,136 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Opdracht 13 - JavaScript Yahtzee</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>Scoreblok</h1>
+    <table>
+        <tr>
+            <th>Deel 1</th>
+            <th>Puntentelling</th>
+            <th>Punten</th>
+        </tr>
+        <tr>
+            <td>Enen</td>
+            <td>Tel alle enen op</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Tweeen</td>
+            <td>Tel alle tweeen op</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Drieen</td>
+            <td>Tel alle drieen op</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Vieren</td>
+            <td>Tel alle vieren op</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Vijfen</td>
+            <td>Tel alle vijven op</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Zessen</td>
+            <td>Tel alle zessen op</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2">Totaal aantal punten</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Extra bonus <i>als puntentotaal 63 of meer is</i></td>
+            <td>35 punten</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2">Totaal <i>van de bovenste helft</i></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th colspan="3">Deel 2</th>
+        </tr>
+        <tr>
+            <td>Three of a kind</td>
+            <td>Totaal v.d. 5 stenen</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Carre</td>
+            <td>Totaal v.d. 5 stenen</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Full house</td>
+            <td>25 punten</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Kleine straat</td>
+            <td>30 punten</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Grote straat</td>
+            <td>40 punten</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Yahtzee</td>
+            <td>50 punten</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Chance</td>
+            <td>Totaal v.d. 5 stenen</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2">Totaal <i>Deel 2</i></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2">Totaal <i>Deel 1</i></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2">Totaal</td>
+            <td></td>
+        </tr>
+    </table>
+
+    <input type="button" value="Gooien!">
+    <table>
+            <tr>
+                <td class="dieRow"></td>
+                <td class="dieRow"></td>
+                <td class="dieRow"></td>
+                <td class="dieRow"></td>
+                <td class="dieRow"></td>
+            </tr>
+        </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <script src="script.js"></script>
 </body>
 </html>
