@@ -1,0 +1,13 @@
+threeOfAKind - 3 gelijke stenen - totaal gooi
+
+carre - 4 gelijke stenen - totaal gooi
+
+fullHouse - 3 gelijke en 2 gelijke - 25 punten
+
+smallStreet - 4 opeenvolgende waarden (1, 2, 3, 4), (2, 3, 4, 5), (3, 4, 5, 6) - 30 punten
+
+largeStreet - 5 opeenvolgende waarden (1, 2, 3, 4, 5), (2, 3, 4, 5, 6) - 40 punten
+
+chance - 5 willekeurige waarden - totaal gooi
+
+yahtzee - 5 dezelfde waarden - 50 punten
