@@ -73,7 +73,7 @@ const Throw = () => {
         document.getElementById("fullHouse").innerHTML = 25
     } else if(throwCountValues.includes(5)) { //If array contains 5 times the same value, add 50 points
         document.getElementById("yahtzee").innerHTML = 50
-    } else if(seqCompare(throwCountValues === 4)){
+    } else if(seqCompare(throwCountValues) === 4){
         document.getElementById("smallStreet").innerHTML = 30 //If array contains 4 consecutive values, add 30 points
     } else if(
         compareArray(throwCountValues, lrgStrArray[1] ||
