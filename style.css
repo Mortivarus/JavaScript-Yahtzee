@@ -18,3 +18,12 @@ th{
 #number, #totalCost, #total{
     text-align: right;
 }
+
+.tmpLocked{
+    background-color:grey;
+}
+
+.locked{
+    background-color: firebrick;
+
+}
