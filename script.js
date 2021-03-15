@@ -1,5 +1,7 @@
 const dieRow = document.getElementsByClassName("dieRow")
 const dieTotal = document.getElementsByClassName("dieTotal")
+const score = document.querySelectorAll(".score")
+
 
 const throwCount = {
     1: 0,
@@ -81,12 +83,27 @@ const Throw = () => {
         document.getElementById("chance").innerHTML = values.reduce((a,b) => a + b, 0) //Summarise the throw if there are no other categories
     }
     
+    document.querySelectorAll('.tmpLocked').forEach(element => {
+        element.classList.replace('tmpLocked', 'locked')
+    })
+
 }
+// TODO: when clicking and thus locking a value, all final scores should be calculated. When the final score of part 1 is 63 points or more, a bonus of 35 should be added.
 
 document.getElementById("throwButton").addEventListener("click", Throw)
 
-let lock = false
+document.querySelectorAll('.score').forEach(element => {
+    
+    element.addEventListener('click', (event) =>{
 
+        score.forEach(element => {
+            element.classList.remove("tmpLocked")
+        })
+        
+        event.target.classList.add("tmpLocked")
+
+    })
+})
 
 
 
