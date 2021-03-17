@@ -15,10 +15,6 @@ th{
     text-align: left;
 }
 
-#number, #totalCost, #total{
-    text-align: right;
-}
-
 .tmpLocked{
     background-color:grey;
 }
